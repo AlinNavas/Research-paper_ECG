@@ -1,0 +1,97 @@
+/home/people/23200772/.bash_profile: line 17: /opt/software/gaussian/g16/bsd/g16.profile: Permission denied
+Requirement already satisfied: shap in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (0.45.0)
+Requirement already satisfied: numpy in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (1.26.3)
+Requirement already satisfied: scipy in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (1.11.4)
+Requirement already satisfied: scikit-learn in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (1.3.0)
+Requirement already satisfied: pandas in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (2.1.4)
+Requirement already satisfied: tqdm>=4.27.0 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (4.65.0)
+Requirement already satisfied: packaging>20.9 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (23.1)
+Requirement already satisfied: slicer==0.0.7 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (0.0.7)
+Requirement already satisfied: numba in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (0.59.1)
+Requirement already satisfied: cloudpickle in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from shap) (3.0.0)
+Requirement already satisfied: llvmlite<0.43,>=0.42.0dev0 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from numba->shap) (0.42.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from pandas->shap) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from pandas->shap) (2023.3.post1)
+Requirement already satisfied: tzdata>=2022.1 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from pandas->shap) (2023.3)
+Requirement already satisfied: joblib>=1.1.1 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from scikit-learn->shap) (1.2.0)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from scikit-learn->shap) (2.2.0)
+Requirement already satisfied: six>=1.5 in /home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages (from python-dateutil>=2.8.2->pandas->shap) (1.16.0)
+Sat Mar 23 09:14:01 2024       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  On   | 00000000:3B:00.0 Off |                    0 |
+| N/A   34C    P0    26W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-PCIE...  On   | 00000000:D8:00.0 Off |                    0 |
+| N/A   34C    P0    26W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+2024-03-23 09:14:03.185847: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-23 09:14:06.516912: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-23 09:14:08.612886: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/people/23200772/.conda/envs/ecg_env/lib/python3.9/site-packages/keras/backend.py:451: UserWarning: `tf.keras.backend.set_learning_phase` is deprecated and will be removed after 2020-10-11. To update it, simply pass a True/False value to the `training` argument of the `__call__` method of your layer or model.
+  warnings.warn(
